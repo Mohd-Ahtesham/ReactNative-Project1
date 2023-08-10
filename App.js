@@ -226,17 +226,6 @@ const styles = StyleSheet.create({
     marginTop: 4,
     marginBottom: 32,
   },
-  checkbox: {
-    width: 20,
-    height: 20,
-    borderRadius: 4,
-    borderWidth: 2,
-    borderColor: '#000',
-    marginLeft: 18,
-  },
-  checked: {
-    backgroundColor: 'green',
-  },
   lastBtn: {
     alignItems: 'center',
     backgroundColor: '#5E72E4',
@@ -257,11 +246,11 @@ const styles = StyleSheet.create({
   check: {
     width: 20,
     height: 20,
-    borderRadius: 2,
+    borderRadius: 4,
     borderWidth: 2,
     borderColor: 'blue',
     marginRight: 10,
-    left:10,
+    marginLeft: 18,
   },
 });
 
